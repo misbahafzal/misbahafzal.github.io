@@ -1,0 +1,95 @@
+# ============================================================
+#  GitHub Pages Configuration — misbahafzal.github.io
+# ============================================================
+#
+#  THEME OPTIONS (uncomment ONE theme, comment out the rest)
+#  All themes below are officially supported by GitHub Pages.
+#  Preview them at: https://pages.github.com/themes/
+# ============================================================
+
+# ----------------------------
+# 🎨 ACTIVE THEME (change me!)
+# ----------------------------
+theme: minima                # Clean, minimal — great default for portfolios
+
+# Other supported themes — uncomment to switch:
+# theme: architect           # Bold header, sidebar nav
+# theme: cayman              # Large header banner, clean layout
+# theme: dinky               # Compact sidebar with nav links
+# theme: hacker              # Dark terminal/hacker aesthetic
+# theme: leap-day            # Bright, structured with sidebar
+# theme: merlot              # Classic serif, editorial feel
+# theme: midnight            # Dark navy with light content
+# theme: minimal             # Extremely lightweight and clean
+# theme: modernist           # Bold typography, modern layout
+# theme: slate               # Dark gray professional theme
+# theme: tactile             # Skeuomorphic, textured look
+# theme: time-machine        # Pastel, retro-inspired
+
+
+# ============================================================
+#  SITE SETTINGS
+# ============================================================
+
+title: "Misbah Afzal"
+description: "Full-Stack Developer · Open Source Enthusiast · Building things for the web"
+url: "https://misbahafzal.github.io"
+
+# Your name (used by some themes in the footer)
+author:
+  name: "Misbah Afzal"
+  email: "[your@email.com]"           # Replace with your email
+
+
+# ============================================================
+#  SOCIAL LINKS (used by the minima theme automatically)
+# ============================================================
+
+minima:
+  social_links:
+    - { platform: github,   user_url: "https://github.com/misbahafzal" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/misbahafzalk/" }
+
+
+# ============================================================
+#  NAVIGATION (optional — some themes support this)
+# ============================================================
+
+header_pages:
+  - index.md          # Home
+  # - about.md        # Uncomment when you add an About page
+  # - projects.md     # Uncomment when you add a Projects page
+  # - contact.md      # Uncomment when you add a Contact page
+
+
+# ============================================================
+#  BUILD SETTINGS
+# ============================================================
+
+markdown: kramdown          # Default and recommended Markdown renderer
+highlighter: rouge          # Syntax highlighting for code blocks
+
+# Exclude files from the built site
+exclude:
+  - README.md               # Exclude profile README from the site build
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# ============================================================
+#  PLUGINS (safe plugins supported by GitHub Pages)
+# ============================================================
+
+plugins:
+  - jekyll-feed             # Generates an Atom feed (good for blogs)
+  - jekyll-seo-tag          # Adds SEO meta tags automatically
+  - jekyll-sitemap          # Generates sitemap.xml for search engines
+
+
+# ============================================================
+#  SEO & META
+# ============================================================
+
+lang: "en-US"
+timezone: "Asia/Karachi"    # Change to your timezone if different
